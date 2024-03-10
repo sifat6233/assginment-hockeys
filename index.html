@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- icon cdn ------------ -->
+    <script src="https://kit.fontawesome.com/50ffc4f155.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div class="container w-5/6 mx-auto"> 
+        <div class=" header"> 
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li class="text-orange-600 hover:text-orange-600 "><a>Home</a></li>
+                        <li class="hover:text-orange-600 "><a>About</a></li>
+                        <li class="hover:text-orange-600 "><a>Pages</a></li>
+                        <li class="hover:text-orange-600 "><a>Blog</a></li>
+                        <li class="hover:text-orange-600 "><a>Contract</a></li>
+                    </ul>
+                  </div>
+                  <a class="text-stone-950 font-bold text-3xl">Hockey<span class="text-orange-600">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-lg">
+                    <li class="text-orange-600 hover:text-orange-600 "><a>Home</a></li>
+                    <li class="hover:text-orange-600 "><a>About</a></li>
+                    <li class="hover:text-orange-600 "><a>Pages</a></li>
+                    <li class="hover:text-orange-600 "><a>Blog</a></li>
+                    <li class="hover:text-orange-600 "><a>Contract</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                   <span class="pr-4 text-current cursor-pointer hidden lg:block"> <i class="fa-solid fa-magnifying-glass"></i></span>  <button class="btn text-zinc-50 bg-orange-600 text-xl hover:text-orange-600">Get Ticket</button>
+                </div>
+              </div>
+        </div>
+     
+
+        <!-- slider ------------------ -->
+        <div class="slider-weapper pt-5"> 
+            <div class="carousel w-full h-48 lg:h-96">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                  <div class=""> 
+                    <div class="absolute w-3/6 bg-black rounded-lg"> 
+                      <h2 class="text-slate-200 font-bold text-2xl p-4 ">
+                        Hockey, a fast-paced and exhilarating sport</h2>
+                        <p class="p-4 pt-0 text-slate-300 ">Captivates fans around the world with its combination of skill, speed, and physicality. Played on ice, teams of skaters compete to maneuver</p>
+                    </div>
+                    
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="Images/2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                  <div class=""> 
+                    <div class="absolute w-3/6 bg-black rounded-lg"> 
+                      <h2 class="text-slate-200 font-bold text-2xl p-4 ">
+                        Hockey, a fast-paced and exhilarating sport</h2>
+                        <p class="p-4 pt-0 text-slate-300 ">Captivates fans around the world with its combination of skill, speed, and physicality. Played on ice, teams of skaters compete to maneuver</p>
+                    </div>
+                    
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="Images/3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                  <div class=""> 
+                    <div class="absolute w-3/6 bg-black rounded-lg"> 
+                      <h2 class="text-slate-200 font-bold text-2xl p-4 ">
+                        Hockey, a fast-paced and exhilarating sport</h2>
+                        <p class="p-4 pt-0 text-slate-300 ">Captivates fans around the world with its combination of skill, speed, and physicality. Played on ice, teams of skaters compete to maneuver</p>
+                    </div>
+                    
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="Images/4.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                  <div class=""> 
+                    <div class="absolute w-3/6 bg-black rounded-lg"> 
+                      <h2 class="text-slate-200 font-bold text-2xl p-4 ">
+                        Hockey, a fast-paced and exhilarating sport</h2>
+                        <p class="p-4 pt-0 text-slate-300 ">Captivates fans around the world with its combination of skill, speed, and physicality. Played on ice, teams of skaters compete to maneuver</p>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+
+
+    </div>
+
+   
+</body>
+</html>
